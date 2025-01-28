@@ -1,0 +1,54 @@
+body {
+    background-color: #1A1A2E;
+    color: white;
+  }
+.navbar {
+    height: 80px;
+    position: sticky;
+    top: 0;
+    z-index: 1020; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  }
+  .navbar-brand, 
+  .nav-link {
+    line-height: 80px; 
+  }
+  .navbar-brand img {
+    width: 50px;
+  }
+  .nav-item {
+    margin: 0 10px;
+  }
+  .navbar-toggler-icon {
+    background-color: white;
+  }
+  .hero-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+  }
+  .hero-title {
+    font-size: 3.5rem;
+    font-weight: bold;
+  }
+  .hero-buttons .btn {
+    margin-right: 1rem;
+  }
+  .invert-logo {
+filter: invert(1);
+}
+.mt-custom {
+margin-top: 12.5rem; 
+}
+.hover-scale {
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+.hover-scale:hover {
+  transform: scale(1.2); 
+}
+.trial-link:hover {
+      color: #a905db !important;
+  }
